@@ -1,0 +1,154 @@
+/*Body Changes*/
+body {
+    margin: 0 auto;
+    color: seashell;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*Nav Changes*/
+nav {
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+}
+
+.navlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 69px;
+    margin-left: 10px;
+}
+
+.navlogo > img {
+    height: 50px;
+}
+
+.navlinks {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlinks > a {
+    color: seashell;
+    margin:auto 10px;
+}
+
+/*Main Changes*/
+main {
+    text-align: center;
+    padding-top: 69px;
+}
+
+/*Mission Changes*/
+.mission {
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    background-image: url('./Assets/img-mission-background.webp');
+}
+
+.missiontext {
+    background-color: black;
+    width: 1200px;
+}
+
+/*Tea of the Month Changes*/
+.teaOTM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.teaOTMtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teaOTMcontainers{
+    display: inline-flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.tcon > img {
+    height: 200px;
+    width: 300px;
+}
+
+.tcon > h2 {
+    padding-top: 10px;
+}
+
+.tcon2,
+.tcon3,
+.tcon5 {
+    padding-left: 50px;
+}
+
+/*Locations Changes*/
+.locations {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./Assets/img-locations-background.webp');
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.locationscontainers {
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.lcon {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+.lcon2,
+.lcon3 {
+    margin-left: 40px;
+}
+
+/*Contact Changes*/
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer Changes*/
+footer {
+    width: 1200px;
+    text-align: left;
+    padding-left: 20px;
+    margin: auto;
+}
